@@ -1,3 +1,4 @@
+import 'package:bilqis_project/belajar_form/form_screen.dart';
 import 'package:bilqis_project/container/dua.dart';
 import 'package:bilqis_project/container/satu.dart';
 import 'package:bilqis_project/latihan1/dua.dart';
@@ -25,7 +26,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Biodata(),
+      home: BelajarForm(),
     );
   }
 }
